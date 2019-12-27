@@ -3,5 +3,5 @@
 #include <Windows.h>
 
 namespace peconv {
-    ULONGLONG find_base(BYTE *buf, size_t buf_size);
+    ULONGLONG find_base_candidate(BYTE *buf, size_t buf_size);
 };
